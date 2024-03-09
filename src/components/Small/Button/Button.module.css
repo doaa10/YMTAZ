@@ -1,0 +1,29 @@
+.ButtonCopmpnent{
+    display: flex;
+}
+.ButtonCopmpnent button{
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 8.72px;
+    width: 233.34px;
+    height: 52px;
+    font-size: 17.45px;
+    font-weight: 700;
+    color: #fff;
+    gap: 5px;
+
+}
+.ButtonCopmpnent .primary {
+    background-color: var(--s-color);
+}
+.ButtonCopmpnent .default {
+    background-color: transparent;
+    border:  1px solid var(--s-color);
+}
+.ButtonCopmpnent button:hover{
+    background-color: var(--s-color);
+}

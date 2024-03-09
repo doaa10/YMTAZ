@@ -1,0 +1,81 @@
+.ServiceComponent{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin: 50px;
+    padding: 30px;
+}
+.ServiceComponent .ServiceContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+    
+}
+
+.ServiceComponent>*{
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    
+}
+.ServiceComponent .GridContaner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mainTitle{
+    font-size: 44px;
+    font-weight: 700;
+    color: #252525;
+}
+
+@media (max-width: 320px) {
+    .ServiceComponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       
+    }
+    
+   
+}
+@media (max-width: 480px) {
+    .ServiceComponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+       
+    }
+    .ServiceComponent .GridContaner{
+        display: flex;
+        
+    }
+    
+}
+@media (max-width: 600px) {
+    .ServiceComponent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+       
+    }
+    .ServiceComponent .GridContaner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    
+}

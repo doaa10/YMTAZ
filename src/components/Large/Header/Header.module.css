@@ -1,0 +1,385 @@
+.headerComponent{
+    padding: 55px;
+    background-color: var(--main-color);
+    overflow: hidden;
+}
+.headerCotainer{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+.headerSideLinks{
+    display: flex;
+    gap: 15px;
+   
+}
+.headerBottomContainer {
+    display: flex;
+    justify-content: flex-end;   
+    
+}
+
+.headerBottomContainer .leftImages img {
+width: 1100px;
+margin-bottom: -150px;
+
+}
+
+.rightContnent{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+    justify-content: space-evenly;
+    
+
+}
+.rightContnent .topContext{
+display: flex;
+flex-direction: column;
+gap: 35px;
+}
+.rightContnent .context{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightContnent .context div *{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    color: #ffff;
+}
+.rightContnent .context>div:nth-child(1) h1{
+font-size: 47.98px;
+font-weight: 700;
+}
+.rightContnent .context>div:nth-child(1) span{
+    color: var(--s-color);
+ }
+
+ .rightContnent .context>div:nth-child(2) span{
+    font-size: 22.17px;
+    font-weight: 400;
+    line-height: 39.25px;
+    text-align: right;
+    }
+.rightContnent .btns{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+.rightContnent .bottomWidgets{
+    margin-left: 35px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+
+
+}
+@media (max-width: 1200px) {
+
+    .headerComponent {
+     
+      padding: 70px;
+      height: fit-content;
+      
+    }
+    .headerComponent .headerCotainer{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .headerCotainer .headerBottomContainer {
+        display: flex;
+        justify-content: flex-end;
+
+       
+        
+    }
+    .headerCotainer .headerBottomContainer .leftImages img{
+        width: 800px;
+       
+    }
+    .rightContnent .context>div:nth-child(1) h1{
+        font-size: 30.98px;
+        font-weight: 700;
+        }
+
+        .rightContnent .context>div:nth-child(2) span{
+            font-size: 18.17px;
+            font-weight: 400;
+            line-height: 39.25px;
+            text-align: right;
+            }
+            .rightContnent{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            
+            }
+  }
+  
+
+  @media (max-width: 1024px) {
+    .headerComponent {
+        padding: 80px;
+        height: fit-content;
+        
+        
+      }
+      .headerComponent .headerCotainer{
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+      }
+    .headerBottomContainer {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+       
+        
+    }
+    .headerBottomContainer .leftImages {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self:center;
+        
+    }
+    .headerBottomContainer .leftImages img {
+        width: 800px;
+        
+        }
+        
+   
+  }
+
+  @media screen and (max-width: 600px) {
+    .headerComponent {
+     
+    }
+
+      .headerComponent .headerCotainer{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+  
+      }
+      .headerCotainer .headerBottomContainer {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          gap:80px;
+          
+      }
+      .headerCotainer .headerBottomContainer .leftImages img{
+          width: 1000px;
+          
+      }
+      .rightContnent .context>div:nth-child(1) h1{
+          font-size: 30.98px;
+          font-weight: 700;
+          }
+  
+          .rightContnent .context>div:nth-child(2) span{
+              font-size: 18.17px;
+              font-weight: 400;
+              line-height: 39.25px;
+              text-align: right;
+              }
+              .rightContnent{
+                  display: flex;
+                  flex-direction: column;
+                  gap: 50px;
+              
+              }
+  }
+
+
+
+  @media screen and (max-width: 900px) {
+
+      .headerComponent .headerCotainer{
+          display: flex;
+          flex-direction: column;
+         
+  
+      }
+      .headerCotainer .headerBottomContainer {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          gap:80px;
+          
+      }
+      .headerCotainer .headerBottomContainer .leftImages img{
+          width: 1000px;
+          
+      }
+      .rightContnent{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .rightContnent .context>div:nth-child(1) h1{
+          font-size: 30.98px;
+          font-weight: 700;
+          }
+  
+          .rightContnent .context>div:nth-child(2) span{
+              font-size: 18.17px;
+              font-weight: 400;
+              line-height: 39.25px;
+              text-align: right;
+              }
+              .rightContnent{
+                  display: flex;
+                  flex-direction: column;
+                  gap: 50px;
+              
+              }
+
+              .bottomWidgets{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+  }
+
+  
+  @media screen and (max-width: 480px) {
+  
+    .headerComponent .headerCotainer{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .headerSideLinks{
+        align-self: flex-start;
+        text-align: right;
+    }
+    .headerCotainer .headerBottomContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap:80px;
+        
+    }
+    .headerCotainer .headerBottomContainer .leftImages img{
+        width: 1000px;
+        
+    }
+    .rightContnent{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .rightContnent .context>div:nth-child(1) h1{
+        font-size: 30.98px;
+        font-weight: 700;
+        }
+
+        .rightContnent .context>div:nth-child(2) span{
+            font-size: 18.17px;
+            font-weight: 400;
+            line-height: 39.25px;
+            text-align: right;
+            }
+            .rightContnent{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            
+            }
+
+            .bottomWidgets{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+}
+
+
+@media (max-width: 320px) {
+  
+    .headerComponent .headerCotainer{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .headerSideLinks{
+        align-self: center;
+        text-align: center;
+    }
+    .headerCotainer .headerBottomContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap:80px;
+        
+    }
+    .headerCotainer .headerBottomContainer .leftImages img{
+        width: 600px;
+        
+    }
+    .rightContnent{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    .topContext{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightContnent .context>div:nth-child(1) h1{
+        font-size: 20.98px;
+        font-weight: 700;
+        }
+
+        .rightContnent .context>div:nth-child(2) span{
+            font-size: 15.17px;
+            font-weight: 400;
+            line-height: 39.25px;
+            text-align: right;
+            }
+            .rightContnent{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            
+            }
+                .btns{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+            .bottomWidgets{
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+            }
+}
+
+
+
+
+

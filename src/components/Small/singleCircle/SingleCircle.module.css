@@ -1,0 +1,16 @@
+.SingleCircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    width: 254.3px;
+    height: 254.3px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 7px 0px #00000026;
+    margin-right:20px ;
+
+}
+
+.circleImg img{
+    width: 184.44px;
+}

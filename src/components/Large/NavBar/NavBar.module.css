@@ -1,0 +1,94 @@
+.NavBar {
+    background-color: #fff;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--main-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+  }
+  
+  .NavBarContainer {
+    padding: 3px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .NavBarLogo img {
+    width: 138.28px;
+    height: 67px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .links ul li {
+    padding: 0px 10px;
+  }
+  .links ul li:hover {
+    opacity: .8;
+    cursor: pointer;
+  }
+  
+
+  .activeLink a{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border-radius: 50px;
+
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    
+    .NavBarLogo {
+        order: -1; 
+        margin-bottom: 10px;
+      }
+    
+      .NavBarLogo,
+      .NavBarLinks {
+        display: none;
+      }
+    
+      .NavBarMenu {
+        display: block;
+        cursor: pointer;
+      }
+    
+      .NavBarLinks.show {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 25px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .links{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    
+  }
+  

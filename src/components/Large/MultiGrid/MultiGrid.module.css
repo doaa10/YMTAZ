@@ -1,0 +1,20 @@
+.MultiGrid {
+    width: 282px;
+    height: 270px;
+    border-radius: 18px;
+    padding: 10px 5px;
+    align-items: center;
+    background-color: #ffff;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto; 
+    gap: 2px; 
+    align-self:self-end;
+}
+
+.multiContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 5px; 
+}

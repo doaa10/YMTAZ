@@ -1,0 +1,29 @@
+.Widgets{
+    width: 140px;
+    height: 40px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    padding: 3px 12px;
+    border-radius: 5px;
+    
+}
+.Widgets img{
+    width: 22px;
+}
+.Widgets .RightContext{
+    display: flex;
+    flex-direction: column;
+
+}
+.Widgets .RightContext span:nth-child(1){
+    font-size: 9px;
+    font-weight: 500;
+}
+.Widgets .RightContext span:nth-child(2){
+    font-size: 15px;
+    font-weight: 700;
+}

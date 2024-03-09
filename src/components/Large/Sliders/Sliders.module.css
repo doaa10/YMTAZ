@@ -1,0 +1,244 @@
+.Sliders{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin: 50px;
+    padding: 30px; 
+    position: relative;
+}
+.SliderContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.singleItem{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.prev{
+    position: absolute;
+    top:50%;
+    left: -50px;
+}
+.next{
+    position: absolute;
+    top:50%;
+    right: -30px;
+}
+.circles{
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .circle.active {
+    background-color:var(--s-color)
+  }
+  
+  @media (max-width: 320px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .prev{
+        position: absolute;
+        bottom:90%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:100%;
+        right: -30px;
+    }
+   
+}
+
+
+@media (max-width: 480px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .singleItem{
+        align-items: center;
+
+    }
+    
+    .prev{
+        position: absolute;
+        top:97%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:97%;
+        right: -30px;
+    }
+   
+}
+
+
+@media (max-width: 600px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .singleItem{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .prev{
+        position: absolute;
+        top:97%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:97%;
+        right: -30px;
+    }
+   
+}
+
+
+@media (max-width: 900px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        
+    }
+    .singleItem{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .prev{
+        position: absolute;
+        top:50%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:50%;
+        right: -30px;
+    }
+   
+}
+
+@media (max-width: 1024px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        
+    }
+    .singleItem{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .prev{
+        position: absolute;
+        top:50%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:50%;
+        right: -30px;
+    }
+   
+}
+@media (max-width: 1200px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        display: flex;
+        
+    }
+    .singleItem{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .prev{
+        position: absolute;
+        top:50%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:50%;
+        right: -30px;
+    }
+   
+}

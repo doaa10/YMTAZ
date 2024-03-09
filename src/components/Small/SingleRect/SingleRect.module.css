@@ -1,0 +1,63 @@
+.SingleRect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    width: 282.78px;
+    height: 300.47px;
+    border-radius:18px ;
+    box-shadow: 0px 4.946949005126953px 9.893898010253906px 0px #D3DAE2;
+    border: 1px solid #E0E6ED;
+
+}
+
+.RectComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.RectImg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    overflow: hidden; 
+    width: 141.34px; 
+    height: 141.34px; 
+}
+
+.RectImg img {
+    width: 100%; 
+    height: auto; 
+    border-radius: inherit; 
+}
+
+.rectContext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.rectContext span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+    color: #3B3F5C;
+}
+.rectContext span:nth-child(2)
+,.rectContext span:nth-child(3){
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #3B3F5C;
+    opacity: 50%;
+}
+
+.SingleRect:hover{
+    background: linear-gradient(136.97deg, #DDB762 3.34%, #000000 225.23%);
+    color: #ffff;
+}

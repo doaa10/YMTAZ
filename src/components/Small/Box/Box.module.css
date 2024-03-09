@@ -1,0 +1,57 @@
+.Box{
+    width: 282px;
+    height: 270px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    box-shadow: 0px 2px 4px -2px #1018280F;
+    box-shadow: 0px 4px 8px -2px #1018281A;
+     border-radius: 18px;
+     gap: 20px;
+}
+.Box .BoxIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DDB762;
+    background-color: #FFFFFF;
+    box-shadow: 20px 25px 70px 0px #F9DAD5CC;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    
+
+}
+.BoxTitle{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    color: #292019;
+
+}
+.BoxContext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #6F6863;
+}
+.activeBox{
+    background: linear-gradient(136.97deg, #DDB762 3.34%, #000000 225.23%);
+    box-shadow: 0px 2px 4px -2px #1018280F;
+    box-shadow: 0px 4px 8px -2px #1018281A;
+    color: #ffff;
+    
+}
+.activeTitle{
+    color: #ffff;
+}
+.Box .activeIcon{
+    
+    background: linear-gradient(136.97deg, #DDB762 3.34%, #000000 225.23%);
+    box-shadow: 20px 25px 70px 0px #F9DAD5CC;
+    color: #FFFFFF;
+}
