@@ -29,3 +29,11 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+@media (min-width:2000px) {
+    .MiniGrid{
+        width: 170px; 
+        height: 120px;
+    }
+    
+}

@@ -55,3 +55,22 @@
     box-shadow: 20px 25px 70px 0px #F9DAD5CC;
     color: #FFFFFF;
 }
+
+@media (min-width:2000px){
+    .Box{
+        width: 380px;
+        height: 310px;
+        
+    }
+    .BoxTitle{
+       
+        font-size: 25px;
+     
+    
+    }
+    .BoxContext {
+
+        font-size: 20px;
+      
+    }
+}

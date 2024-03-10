@@ -14,3 +14,13 @@
 .circleImg img{
     width: 184.44px;
 }
+
+@media (min-width:2000px){
+    .SingleCircle{
+        width: 330px;
+        height: 330px;
+    }
+    .circleImg img{
+        width: 220px;
+    }
+}

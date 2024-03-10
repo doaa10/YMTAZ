@@ -135,7 +135,16 @@
     opacity: .5;
     border: 1px solid #ffff;
 }
+@media (min-width:2000px) {
 
+    .singleLink{
+        font-size: 18px;
+    }
+    .footerContext{
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
 @media (max-width: 849px) {
     .Footer {
         flex-direction: column;

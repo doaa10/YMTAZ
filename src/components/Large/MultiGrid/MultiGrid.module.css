@@ -13,8 +13,18 @@
 }
 
 .multiContainer {
+    padding: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr; 
     grid-template-columns: 1fr 1fr; 
     gap: 5px; 
+}
+
+
+@media (min-width:2000px) {
+    .MultiGrid {
+        
+        width: 380px;
+        height: 300px;
+    }
 }

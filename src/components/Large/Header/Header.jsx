@@ -23,7 +23,7 @@ const Header = () => {
             <div className={styles.headerBottomContainer}>
 
             <div className={styles.leftImages}>
-              <Image className={styles.img} src='/images/imgs.png' width={1000} height={700}/>
+              <Image className={styles.img} src='/images/imgs.png' width={1000} height={700} />
                     
 
                 </div>

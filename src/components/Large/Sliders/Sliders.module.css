@@ -242,3 +242,38 @@
     }
    
 }
+
+@media (min-width: 2000px) {
+    .Sliders {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .SliderContainer{
+        padding: 50px;
+        display: flex;
+        width: 100%;
+        
+    }
+    .singleItem{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    .prev{
+        position: absolute;
+        top:50%;
+        left: -50px;
+    }
+    .next{
+        position: absolute;
+        top:50%;
+        right: -30px;
+    }
+    
+}

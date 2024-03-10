@@ -61,3 +61,25 @@
     background: linear-gradient(136.97deg, #DDB762 3.34%, #000000 225.23%);
     color: #ffff;
 }
+
+
+@media (min-width:2000px){
+    .SingleRect{
+        width: 360px;
+        height: 330px;
+    }
+    .circleImg img{
+        width: 220px;
+    }
+    .rectContext span:nth-child(1){
+        font-size: 25px;
+       
+    }
+    .rectContext span:nth-child(2)
+    ,.rectContext span:nth-child(3){
+        font-size: 18px;
+       
+        
+    }
+    
+}
