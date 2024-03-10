@@ -7,6 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Button from '@/components/Small/Button/Button';
 import { FaApple } from "react-icons/fa6";
 import Widget from '@/components/Small/Widgets/Widget';
+import Image from 'next/image';
 
 
 const Header = () => {
@@ -22,7 +23,8 @@ const Header = () => {
             <div className={styles.headerBottomContainer}>
 
             <div className={styles.leftImages}>
-                    <img src='/images/imgs.png'></img>
+              <Image className={styles.img} src='/images/imgs.png' width={1000} height={700}/>
+                    
 
                 </div>
 

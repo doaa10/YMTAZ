@@ -8,6 +8,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { HiOutlineMail } from "react-icons/hi";
 import { LuPhone } from "react-icons/lu";
 import { LuAlarmClock } from "react-icons/lu";
+import Image from 'next/image';
 
 
 const Footer = () => {
@@ -18,8 +19,9 @@ const Footer = () => {
                     <div className={styles.rightCont}>
 
                         <div className={styles.logoImgs}>
-                        <img src='/images/Frame1.png' alt='logo'></img>
-                        <img src='/images/logopng.png' alt='logo'></img>
+                            
+                        <Image src='/images/Frame1.png' alt='logo' width={82} height={70}></Image>
+                        <Image src='/images/logopng.png' alt='logo' width={82} height={70}></Image>
                         </div>
 
                         <div className={styles.footerContext}>

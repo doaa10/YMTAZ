@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './SingleCircle.module.css'
+import Image from 'next/image'
 const SingleCircle = ({img}) => {
     
   return (
@@ -7,7 +8,7 @@ const SingleCircle = ({img}) => {
         <div className={styles.SingleCircle}>
         <div className={styles.CircleContainer}>
             <div className={styles.circleImg}>
-                <img src={img} alt='logo'></img>
+                <Image src={img} width={184.44} height={60}/>
             </div>
             
         </div>

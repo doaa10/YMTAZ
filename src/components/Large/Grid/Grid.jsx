@@ -6,7 +6,7 @@ const Grid = ({data,activeIndex }) => {
     <>
         {
             data && data.map((data,index)=>{
-                return <div >
+                return <div  key={index}>
                 <Box key={data.id} title={data.title} context={data.context} icon={data.icon} first={index === activeIndex}/>
                 </div>
             })
